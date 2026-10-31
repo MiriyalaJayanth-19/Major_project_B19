@@ -1,0 +1,14 @@
+# Local model artifacts and dataset copies are large and should stay out of Git.
+Models/
+idrid_val/
+**/*.weights.h5
+**/*.keras
+**/*.h5
+**/.venv/
+**/venv/
+**/__pycache__/
+**/.pytest_cache/
+**/.pytest-tmp/
+.env
+.env.*
+!.env.example
